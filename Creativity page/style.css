@@ -1,0 +1,158 @@
+body {
+  background-image: url("./pexels-rfstudio-3819572.jpg");
+  background-color: #f5f2f0;
+  background-size: 40% auto, cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.logo {
+  width: 150px;
+}
+.line {
+  width: 30%;
+  border-bottom: 1px solid #000;
+  align-self: center;
+  margin-top: -10px;
+  margin-left: 450px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+nav ul li {
+  list-style-type: none;
+  padding-bottom: 10px;
+  color: #999897;
+}
+
+section.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section.container .left {
+  width: 40%;
+}
+section.container .right {
+  width: 60%;
+}
+.right-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right-top .social {
+  display: flex;
+  flex-direction: column;
+  margin-top: -50px;
+  margin-right: 50px;
+}
+.right-top .social img {
+  margin-top: 40px;
+  width: 30px;
+}
+.right-top .heading h1:first-child {
+  font-size: 130px;
+  font-family: "Londrina Outline", cursive;
+  font-weight: 100;
+  position: relative;
+  top: -150px;
+}
+.right-top .heading h1 {
+  font-size: 130px;
+  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  top: -290px;
+}
+.right-top .heading h1 span {
+  padding-left: 235px;
+}
+.right-top .ingrediant {
+  position: relative;
+}
+.right-top .ingrediant h4 {
+  font-size: 40px;
+  color: #727373;
+  padding: 0 20%;
+  position: absolute;
+  bottom: 350px;
+  left: -100px;
+}
+.right .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 25px 0;
+  position: absolute;
+  bottom: 270px;
+  left: 1250px;
+}
+.right button {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+}
+.right-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right-bottom .step {
+  position: relative;
+  bottom: 340px;
+}
+.right-bottom .step .step-block {
+  margin-top: -20px;
+}
+.right-bottom .step .step-block.first {
+  padding-left: 3px;
+}
+
+.right-bottom .quote {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  position: relative;
+  width: 60%;
+  top: -400px;
+}
+.right-bottom .quote p::before {
+  content: "\201D";
+  font-size: 75px;
+  display: inherit;
+}
+
+.right-bottom .quote p {
+  margin-top: 60px;
+  margin-left: 35px;
+  padding-top: 40px;
+  line-height: 30px;
+  font-weight: 800;
+}
+.right-bottom .quote img {
+  padding: 0 10%;
+  margin-right: 20px;
+}
+
+.right-bottom .arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -370px;
+  right: 30px;
+}
